@@ -4,11 +4,11 @@
 width: 500px;
 border: 120px solid black;
 margin: 0 auto;
+
 }
 
 .post-header {
 display: flex;
-
 justify-content: space-between;
 
 }
@@ -36,12 +36,14 @@ justify-content: space-between;
 .imagen{
     width:100%; 
     margin: 0 auto;
+  
 }
 
 .post-footer{
 
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 .instaicon{
@@ -53,10 +55,37 @@ justify-content: space-between;
 .myicons{
 
     margin-left:5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.icon2 {
+.icon2{
     font-size: 24px;
     margin-right: 5px;
     margin: 2px;
+   margin-left: auto;
+
+
+}
+
+
+.text {
+    margin-top: 8px;
+    font-size: 18px;
+
+}
+
+.html-nombre{
+    display: flex;
+    align-items: center;
+}
+
+.todosiconos{
+        display: flex;
+    justify-content: space-between;
+}
+
+.logoynombre{
+        margin-top: 5px;
 }
